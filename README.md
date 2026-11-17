@@ -1,17 +1,6 @@
-# Quartz v5
+# Notes APP — Algorithmes et Programmation Parallèle
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Notes de cours de l'UE APP (Ensimag), publiées sur https://hamzajer.github.io/app-notes/
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Le site est généré avec [Quartz](https://quartz.jzhao.xyz) à partir d'un coffre Obsidian :
+`./sync-notes.sh` copie les notes dans `content/`, et chaque push sur `v5` redéploie le site.
